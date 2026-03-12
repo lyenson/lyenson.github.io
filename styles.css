@@ -1,0 +1,89 @@
+body, h2, h3, h4, h5, h6, p {
+  font-family: "Garamond", serif;
+}
+
+h1, .w3-bar, button {
+  font-family: "Garamond", serif;
+}
+
+body {
+  background-color: #fff2fa;
+  margin: 0;
+}
+
+.custom-purple {
+  background-color: #cbc3e3 !important;
+  color: black !important;
+}
+
+.light-purple-bg {
+  background-color: #fff2fa !important;
+}
+
+.hero-section {
+  padding: 170px 16px 100px 16px !important;
+}
+
+.hero-title {
+  font-size: 72px;
+  margin: 0 0 28px 0;
+  line-height: 1.1;
+}
+
+.profile-photo {
+  width: 260px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  display: block;
+  margin: 20px auto;
+  border: 5px solid #CBC3E3;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.about-photo-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.section-icon {
+  font-size: 120px;
+  color: #a79acb;
+}
+
+.project-link {
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 12px 20px;
+  background-color: #CBC3E3;
+  color: black;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  border: 2px solid #b8aed8;
+}
+
+.project-link:hover {
+  background-color: #b8aed8;
+}
+
+.w3-bar .w3-button:hover {
+  background-color: white !important;
+  color: black !important;
+}
+
+.w3-content {
+  max-width: 1100px;
+}
+
+.section-box {
+  border-top: 6px solid #cbc3e3;
+  border-bottom: 6px solid #cbc3e3;
+  background-color: white;
+}
+
+#portfolio.section-box {
+  background-color: #CBC3E3;
+}
